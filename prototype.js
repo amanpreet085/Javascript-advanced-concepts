@@ -9,5 +9,3 @@ Object.assign(Array.prototype, anObj);
 const anArray = [1, 23, 4];
 
 anArray.myForEach();
-
-anArray.forEach(() => {});
