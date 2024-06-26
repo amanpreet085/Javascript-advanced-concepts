@@ -1,16 +1,18 @@
 // Inheritance
+// Encapsulation
 
 class Person {
-  name;
+  // to make name variable private
+  #name;
 
   constructor(name) {
     console.log("person class constructor called");
 
-    this.name = name;
+    this.#name = name;
   }
 
   introduceSelf() {
-    console.log(`Hello! My name is ${this.name}`);
+    console.log(`Hello! My name is ${this.#name}`);
   }
 }
 
